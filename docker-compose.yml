@@ -3,7 +3,7 @@ version: "3"
 services:
   mermaid:
     build: .
-    image: "citizensadvice/mermaid${MERMAID_VERSION_TAG}"
+    image: "public.ecr.aws/citizensadvice/mermaid${MERMAID_VERSION_TAG}"
     volumes:
       - ./:/mermaid
       - node_modules:/mermaid/node_modules
